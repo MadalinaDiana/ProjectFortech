@@ -1,8 +1,9 @@
-Feature: Send email
-  Scenario: Send email forgot password
+Feature: Form Page
+Scenario: Verify error
     Given I am on the Jules App-sign-in
-    When  I click "Forgot password?" link
-    And  I input email.
-    And I click "SEND EMAIL" button.
-    Then I recive the the mail send message.
+    When  I input correct email
+    And I write a password
+    And I clear the password
+    Then Message error is displayed
+    And Log in button id disabled
 
