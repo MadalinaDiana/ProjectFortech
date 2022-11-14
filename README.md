@@ -1,5 +1,5 @@
 # ProjectFortech
-###Jules page functionality test
+### Jules page functionality test
 
 This project aims to test the functionality of the Jules pages.
 The pages tested are "sign-up", "sign-in" and "forgot-password".
@@ -31,8 +31,9 @@ Everything needed to run the project can be found in the file ``` .requirements.
     /verify_url.feature
 /behave.ini
 ```
-###Report tests
+### Report tests
 After running the tests, we will get an html page showing the test results.
 
 ## Results displayed
-![](../../Desktop/Screenshot 2022-11-14 at 10.23.41.png)
+<img width="1440" alt="Screenshot 2022-11-14 at 10 23 41" src="https://user-images.githubusercontent.com/48148610/201623654-c5eeff55-63bf-47f5-bb14-70a8bcc2bf8e.png">
+
